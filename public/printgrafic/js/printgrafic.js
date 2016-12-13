@@ -1,13 +1,6 @@
-$(document).ready(function(){
-    $(".dropdown").hover(            
-        function() {
-            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
-            $(this).toggleClass('open');        
-        },
-        function() {
-            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
-            $(this).toggleClass('open');       
-        }
-        );
-});
+var btnMenu = document.getElementById('btn-menu');
+var nav  = document.getElementById('nav');
 
+btnMenu.addEventListener('click', function(){
+    nav.classList.toggle('mostrar');
+})
