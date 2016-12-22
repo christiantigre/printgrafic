@@ -41,6 +41,11 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     justify-content: space-between;
 }
+.thead{
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
 .logos{
     width: auto;
     height: auto;
@@ -129,6 +134,12 @@ h1,h2,h3,h4,h5,h6{
 
 .banner__txt{
     display: none;
+}
+/*main*/
+.main{
+    background-color: rebeccapurple;
+    position: relative;
+    top: 250px;
 }
 /*Info*/
 .info__columna{
@@ -245,6 +256,16 @@ float: left;
 	padding-left: 6px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+}
+#particles-js{
+    width: 100%;
+    height: auto;
+    background-color: grey;
+}
+.slider{
+    width: 500px;
+    height: 500px;
+    background-color: black;
 }
 /*Estilos responsive*/
 @media(min-width:480px){
